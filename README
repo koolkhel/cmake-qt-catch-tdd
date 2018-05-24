@@ -1,0 +1,7 @@
+It's just a stub project to use for learning TDD.
+
+It imports basic Qt classes and holds a copy of Catch testing library.
+
+CMake is used to be able to use CLion for development.
+
+So for me it is a valid combo to remember, thus, I created this repo.
