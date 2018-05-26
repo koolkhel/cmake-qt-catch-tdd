@@ -22,19 +22,10 @@ set(CMAKE_AUTOUIC ON)
 # compile resources
 set(CMAKE_AUTORCC ON)
 
-# Munity App
-set(TESTS_SOURCES
-	tests_main.cpp
-)
-
-set(TESTS_HEADERS
-	catch.hpp
-  )
-
 # Tell CMake to create the helloworld executable
 add_executable(${PROJECT_NAME}
-	${TESTS_SOURCES}
-	${TESTS_HEADERS}
+	tests_main.cpp
+	catch.hpp
     )
 
 set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 11)
